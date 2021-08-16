@@ -1,0 +1,59 @@
+    .soobshenie{
+		display:none;
+		width:300px;
+		min-height:400px;
+		position:fixed;
+		top:calc(50% - 221px);
+		left:calc(50% - 132px);
+		background:white;
+		border:1px solid #c5d9e8;
+		box-shadow: 3px 3px 10px #1e5e91;
+		padding:20px;
+	}
+	.title{
+		margin:15px 0px;
+		text-align:center;
+		font:normal 17px Calibri, sans-serif; 
+	}
+	.soobshenie_legend{
+		font:normal 16px Calibri, sans-serif;
+	}
+	.soobshenie_input{
+		padding:8px;
+		border:1px solid #1e5e91;
+		border-radius:3px;
+		font-size:15px;
+		margin:7px 0px;
+		width: calc(100% - 18px);
+		font:normal 15px Cambria, sans-serif;
+	}
+	.soobshenie_button{
+		padding:8px;
+		border:1px solid #1e5e91;
+		border-radius:3px;
+		margin:7px 0px;
+		width:calc(100% - 16px);
+		background:#225985;
+		text-align:center;
+		font:normal 16px Calibri, sans-serif;
+		color:white;
+	}
+	.soobshenie_button:hover{
+		background:#276da5;
+	}
+	.soobshenie_button:active{
+		background:#225985;
+	}
+@media screen and (max-width: 900px) {
+    .soobshenie{
+        width:calc(100% - 42px);
+		height:calc(100% - 42px);
+        top:0;
+		left:0px;
+		overflow: auto;
+    }
+	.soobshenie_button{
+		width: calc(100% - 18px);
+		
+	}
+}
